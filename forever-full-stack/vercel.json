@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "backend/server.mjs",
-      "use": "@vercel/node"
+      "use": "@vercel/node@2.0.0"
     },
     {
       "src": "frontend/package.json",
