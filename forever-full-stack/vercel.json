@@ -26,12 +26,12 @@
       "dest": "/backend/server.js"
     },
     {
-      "src": "/admin(.*)",
-      "dest": "/admin/index.html"
+      "src": "/admin/(.*)",
+      "dest": "/admin/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/frontend/index.html"
+      "dest": "/frontend/$1"
     }
   ]
 }
