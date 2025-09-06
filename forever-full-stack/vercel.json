@@ -22,16 +22,12 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/(.*)",
       "dest": "/backend/server.js"
     },
     {
       "src": "/admin/(.*)",
       "dest": "/admin/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/frontend/$1"
     }
   ]
 }
