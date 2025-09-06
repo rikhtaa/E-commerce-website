@@ -1,4 +1,4 @@
-import userModel from "../models/userModel.js"
+import userModel from "../models/userModel.mjs"
 
 
 // add products to user cart
