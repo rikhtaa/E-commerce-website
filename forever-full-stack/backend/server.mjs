@@ -17,7 +17,7 @@ connectCloudinary()
 // middlewares
 app.use(express.json())
 const allowedOrigins = [
-  'https://e-commerce-website-rust-eta.vercel.app', 
+  'https://e-commerce-website-n90ikoi8d-e-commerce-websites-projects.vercel.app',
   'https://e-commerce-website-five-silk.vercel.app' 
 ]
 
