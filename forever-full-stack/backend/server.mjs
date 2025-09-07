@@ -8,6 +8,14 @@ import productRouter from './routes/productRoute.mjs'
 import cartRouter from './routes/cartRoute.mjs'
 import orderRouter from './routes/orderRoute.mjs'
 
+process.on('uncaughtException', (error) => {
+  console.error('Uncaught Exception:', error);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+});
+
 // App Config
 const app = express()
 const port = process.env.PORT || 4000
