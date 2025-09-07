@@ -4,8 +4,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "start": "node server.mjs",
+    "server": "nodemon server.mjs"
   },
   "engines": {
     "node": "20.x"
