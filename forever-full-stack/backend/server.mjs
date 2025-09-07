@@ -27,7 +27,7 @@ app.use(express.json())
 const allowedOrigins = [
   'https://e-commerce-website-n90ikoi8d-e-commerce-websites-projects.vercel.app',
   'https://e-commerce-website-five-silk.vercel.app',
-  'https://e-commerce-website-u9cv.vercel.app/'
+  'https://e-commerce-website-u9cv.vercel.app'
 ]
 
 app.use(cors({
